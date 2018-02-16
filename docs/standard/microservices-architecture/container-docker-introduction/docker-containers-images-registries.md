@@ -16,11 +16,11 @@ ms.lasthandoff: 10/18/2017
 ---
 # <a name="docker-containers-images-and-registries"></a>Registres, des images et des conteneurs docker
 
-Lorsque vous utilisez Docker, un développeur crée une application ou de service et de packages, il et ses dépendances dans une image de conteneur. Une image est une représentation statique de l’application ou service de configuration et ses dépendances.
+Lorsque vous utilisez Docker, un développeur crée une application ou de service, et l'empacte avec ses dépendances dans une image de conteneur. Une image est une représentation statique de l’application ou du service, avec sa configuration et ses dépendances.
 
-Pour exécuter l’application ou le service, l’image de l’application est instancié pour créer un conteneur, qui est exécuté sur l’hôte Docker. Les conteneurs sont initialement testées dans un environnement de développement ou un PC.
+Pour exécuter l’application ou le service, l’image de l’application est instanciée pour créer un conteneur, qui est exécuté sur l’hôte Docker. Les conteneurs sont initialement testées dans un environnement de développement ou un PC.
 
-Les développeurs doivent stocker des images dans un Registre, qui agit comme une bibliothèque d’images et est nécessaire lors du déploiement vers orchestrators de production. Docker conserve un registre public via [Hub d’ancrage](https://hub.docker.com/); autres éditeurs proposent des registres pour les différentes collections d’images. Également, les entreprises peuvent avoir un Registre privé local pour leurs propres images Docker.
+Les développeurs doivent stocker des images dans un Registre, qui agit comme une bibliothèque d’images et est nécessaire lors du déploiement vers les orchestrators de production. Docker conserve un registre public via un [Hub docker](https://hub.docker.com/); les autres éditeurs proposent des registres pour les différentes collections d’images. Également, les entreprises peuvent avoir un Registre privé local pour leurs propres images Docker.
 
 Figure 2-4 indique comment les images et les registres dans Docker se rapportent à d’autres composants. Il montre également les offres de Registre plusieurs provenant de fournisseurs.
 
